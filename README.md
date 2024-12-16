@@ -1,2 +1,2 @@
 # png2webp-4-comfyui-workflows
-Converts PNG images to WebP format while preserving ComfyUI workflow metadata.
+This class searches a specified directory for PNG images and converts them to the WebP format, while preserving the metadata from the original ComfyUI workflow.
