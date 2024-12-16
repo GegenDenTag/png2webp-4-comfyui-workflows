@@ -65,8 +65,7 @@ class PngToWebpConverter:
                 print(results)
 
 if __name__ == "__main__":
-    converter = PngToWebpConverter(directory="G:/DreamshaperXL")
-    #converter = PngToWebpConverter(directory="urPath2Dir")
+    converter = PngToWebpConverter(directory="urPath2Dir")
     converter.convert()
 
     
