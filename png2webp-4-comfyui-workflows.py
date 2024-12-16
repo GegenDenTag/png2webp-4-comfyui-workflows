@@ -8,7 +8,7 @@ import pathlib
     while preserving the metadata from the original ComfyUI workflow.
 """
 
-class PngToWebpConverter:
+class PngToWebPConverter:
     def __init__(self, directory, quality=90, method=6):
         self.directory = directory
         self.quality = quality
@@ -65,7 +65,7 @@ class PngToWebpConverter:
                 print(results)
 
 if __name__ == "__main__":
-    converter = PngToWebpConverter(directory="urPath2Dir")
+    converter = PngToWebPConverter(directory="urPath2Dir")
     converter.convert()
 
     
